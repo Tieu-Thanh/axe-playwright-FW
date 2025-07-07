@@ -25,6 +25,8 @@ trace.zip
 Thumbs.db
 
 # Test output
-*.json
 *.xml
 *.html
+
+# 
+package-lock.json

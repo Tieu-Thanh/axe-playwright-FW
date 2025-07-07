@@ -25,7 +25,11 @@ Run all tests:
 ```bash
 npm test
 ```
+or
 
+```bash
+npx playwright test
+```
 Run tests in headed mode:
 ```bash
 npm run test:headed
@@ -50,6 +54,7 @@ npm run test:ui
     - `au-page.ts` - Sample page class
 - `playwright.config.ts` - Playwright configuration
 - `.env` - Environment variables
+- `package.json` - Package
 
 ## Features
 

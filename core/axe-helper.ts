@@ -16,12 +16,10 @@ export interface AxeBuilderOptions {
 }
 
 export class AxeHelper {
-    private readonly page: Page;
     private readonly builder: AxeBuilder;
 
     constructor(page: Page, options: AxeBuilderOptions = {}) {
-        this.page = page;
-        this.builder = new AxeBuilder({ page: this.page });
+        this.builder = new AxeBuilder({ page: page });
         this.configureBuilder(options);
     }
 

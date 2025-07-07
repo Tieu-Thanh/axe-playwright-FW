@@ -1,0 +1,31 @@
+{
+  "name": "axe-playwright-fw",
+  "version": "1.0.0",
+  "description": "This project is a Playwright-based testing framework for accessibility testing using Axe-core.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tieu-Thanh/axe-playwright-FW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tieu-Thanh/axe-playwright-FW/issues"
+  },
+  "homepage": "https://github.com/Tieu-Thanh/axe-playwright-FW#readme",
+  "dependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "dotenv": "^17.0.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^24.0.10"
+  }
+}
